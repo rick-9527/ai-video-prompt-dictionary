@@ -1,0 +1,12 @@
+{
+  "id": "lens_focal_depth_example_001",
+  "category": "镜头焦段与景深提示词",
+  "title": "35mm 电影镜头视角",
+  "englishPrompt": "35mm cinematic lens perspective, natural wide field of view, realistic spatial relationship, subtle background context, film camera look",
+  "chineseExplain": "这里填写中文解释，说明这个镜头焦段、透视关系或景深提示词适合什么画面、会带来什么视觉效果。",
+  "suitableFor": ["人物与环境同框", "产品场景展示", "生活方式视频"],
+  "notSuitableFor": ["极端微距细节", "强烈长焦压缩画面"],
+  "matchWith": ["真实电影感", "自然窗光", "中景"],
+  "tags": ["35mm", "电影镜头", "自然透视"],
+  "copyText": "35mm cinematic lens perspective, natural wide field of view, realistic spatial relationship, subtle background context, film camera look"
+}
