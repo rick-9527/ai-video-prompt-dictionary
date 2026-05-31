@@ -2398,5 +2398,530 @@
     "matchWith": ["pick up product from table", "place product into frame", "open product packaging", "handheld product presentation"],
     "tags": ["物理接触", "穿模", "重力", "真实交互"],
     "copyText": "avoid bad physics and contact errors, no floating objects, no hands passing through products, no unrealistic collision, maintain believable gravity, contact points and object interaction"
+  },
+  {
+    "id": "camera_movement_term_001",
+    "category": "运镜提示词",
+    "title": "推轨镜头",
+    "englishPrompt": "dolly-in camera movement, camera physically moves forward on a track toward the subject, controlled perspective shift, increasing subject prominence, stable forward motion without digital zoom",
+    "chineseExplain": "推轨镜头指摄影机沿轨道或稳定平台向主体物理推进，画面透视关系会发生轻微变化，适合增强主体压迫感、产品出现感或人物情绪靠近感。注意它不是单纯变焦放大。",
+    "suitableFor": [
+      "产品开场展示",
+      "人物情绪递进",
+      "高端装备亮相",
+      "空间纵深展示",
+      "品牌主视觉镜头"
+    ],
+    "notSuitableFor": [
+      "需要完全静止的白底展示",
+      "复杂多人运动场面",
+      "极近距离微距纹理",
+      "快速剪辑蒙太奇"
+    ],
+    "matchWith": [
+      "中心构图",
+      "浅景深",
+      "低角度光",
+      "主体居中",
+      "背景纵深"
+    ],
+    "tags": [
+      "推轨镜头",
+      "dolly in",
+      "物理推进",
+      "透视变化",
+      "稳定运镜"
+    ],
+    "copyText": "dolly-in camera movement, camera physically moves forward on a track toward the subject, controlled perspective shift, increasing subject prominence, stable forward motion without digital zoom"
+  },
+  {
+    "id": "camera_movement_term_002",
+    "category": "运镜提示词",
+    "title": "拉轨镜头",
+    "englishPrompt": "dolly-out camera movement, camera physically moves backward away from the subject, revealing surrounding environment, controlled spatial expansion, stable backward motion with consistent subject geometry",
+    "chineseExplain": "拉轨镜头指摄影机从主体前方向后撤离，在保持主体形态稳定的同时逐步交代环境空间，适合从细节过渡到完整场景，或者用于结尾拉开空间关系。",
+    "suitableFor": [
+      "产品收尾镜头",
+      "空间环境揭示",
+      "人物离场画面",
+      "品牌结尾画面",
+      "场景建立镜头"
+    ],
+    "notSuitableFor": [
+      "需要强烈压迫感的镜头",
+      "纯微距材质展示",
+      "快速动作追踪",
+      "画面背景杂乱的场景"
+    ],
+    "matchWith": [
+      "全景",
+      "环境光",
+      "对称构图",
+      "景深过渡",
+      "品牌定格"
+    ],
+    "tags": [
+      "拉轨镜头",
+      "dolly out",
+      "后撤运镜",
+      "环境揭示",
+      "空间扩展"
+    ],
+    "copyText": "dolly-out camera movement, camera physically moves backward away from the subject, revealing surrounding environment, controlled spatial expansion, stable backward motion with consistent subject geometry"
+  },
+  {
+    "id": "camera_movement_term_003",
+    "category": "运镜提示词",
+    "title": "滑轨侧移",
+    "englishPrompt": "slider lateral camera move, camera glides horizontally from left to right along a short rail, smooth parallax shift across foreground and background layers, product remains sharply framed",
+    "chineseExplain": "滑轨侧移指摄影机沿短滑轨进行水平移动，通过前景和背景的相对位移制造轻微视差，适合产品细节展示、桌面静物和空间层次呈现。",
+    "suitableFor": [
+      "桌面产品展示",
+      "材质特写",
+      "包装细节展示",
+      "静物广告",
+      "小型产品视频"
+    ],
+    "notSuitableFor": [
+      "大范围户外跟拍",
+      "高速运动镜头",
+      "强剧情调度",
+      "需要剧烈镜头变化的场景"
+    ],
+    "matchWith": [
+      "前景遮挡",
+      "微距镜头",
+      "浅景深",
+      "掠射光",
+      "材质质感"
+    ],
+    "tags": [
+      "滑轨侧移",
+      "slider move",
+      "水平移动",
+      "视差",
+      "静物广告"
+    ],
+    "copyText": "slider lateral camera move, camera glides horizontally from left to right along a short rail, smooth parallax shift across foreground and background layers, product remains sharply framed"
+  },
+  {
+    "id": "camera_movement_term_004",
+    "category": "运镜提示词",
+    "title": "横移跟拍",
+    "englishPrompt": "tracking shot, camera moves parallel to the moving subject, maintaining consistent side framing, stable lateral motion, subject speed matched by camera movement",
+    "chineseExplain": "横移跟拍指摄影机与运动主体保持平行移动，主体在画面中的位置相对稳定，常用于人物行走、车辆移动、运动产品使用场景。它强调同步跟随，而不是单纯横向扫过。",
+    "suitableFor": [
+      "人物行走镜头",
+      "运动装备展示",
+      "车辆行驶镜头",
+      "街头场景",
+      "产品使用过程"
+    ],
+    "notSuitableFor": [
+      "静物白底展示",
+      "极近微距镜头",
+      "狭窄空间",
+      "主体运动方向不明确的场景"
+    ],
+    "matchWith": [
+      "中景",
+      "侧面构图",
+      "广角镜头",
+      "自然光",
+      "动作提示词"
+    ],
+    "tags": [
+      "横移跟拍",
+      "tracking shot",
+      "平行移动",
+      "同步跟随",
+      "运动场景"
+    ],
+    "copyText": "tracking shot, camera moves parallel to the moving subject, maintaining consistent side framing, stable lateral motion, subject speed matched by camera movement"
+  },
+  {
+    "id": "camera_movement_term_005",
+    "category": "运镜提示词",
+    "title": "摇臂镜头",
+    "englishPrompt": "jib shot, camera mounted on a jib arm rises or descends in a controlled arc, smooth vertical reveal, subtle change in camera height and angle, cinematic spatial transition",
+    "chineseExplain": "摇臂镜头通过摇臂设备让摄影机进行平滑升降或弧线移动，适合从局部过渡到全景、从产品过渡到空间，能建立更强的画面仪式感和空间层次。",
+    "suitableFor": [
+      "品牌开场",
+      "展厅空间",
+      "大型产品展示",
+      "人物出场",
+      "场景揭示"
+    ],
+    "notSuitableFor": [
+      "手持纪实感画面",
+      "极小产品微距",
+      "快速运动追拍",
+      "低成本生活记录风格"
+    ],
+    "matchWith": [
+      "广角镜头",
+      "全景",
+      "对称构图",
+      "空间纵深",
+      "轮廓光"
+    ],
+    "tags": [
+      "摇臂镜头",
+      "jib shot",
+      "升降弧线",
+      "空间揭示",
+      "仪式感"
+    ],
+    "copyText": "jib shot, camera mounted on a jib arm rises or descends in a controlled arc, smooth vertical reveal, subtle change in camera height and angle, cinematic spatial transition"
+  },
+  {
+    "id": "camera_movement_term_006",
+    "category": "运镜提示词",
+    "title": "升降镜头",
+    "englishPrompt": "crane shot, camera moves vertically upward or downward from an elevated rig, large-scale height transition, revealing subject placement within the environment, smooth vertical camera travel",
+    "chineseExplain": "升降镜头指摄影机在较大高度范围内垂直上升或下降，通常用于建立空间规模、展示主体与环境的关系，比普通摇臂镜头的空间跨度更大。",
+    "suitableFor": [
+      "大型场景展示",
+      "汽车广告",
+      "运动场馆",
+      "建筑空间",
+      "大型活动开场"
+    ],
+    "notSuitableFor": [
+      "小型桌面产品",
+      "面部细节特写",
+      "白底电商主图",
+      "封闭狭小空间"
+    ],
+    "matchWith": [
+      "俯拍",
+      "全景",
+      "广角镜头",
+      "环境纵深",
+      "场景氛围"
+    ],
+    "tags": [
+      "升降镜头",
+      "crane shot",
+      "垂直运动",
+      "大空间",
+      "环境关系"
+    ],
+    "copyText": "crane shot, camera moves vertically upward or downward from an elevated rig, large-scale height transition, revealing subject placement within the environment, smooth vertical camera travel"
+  },
+  {
+    "id": "camera_movement_term_007",
+    "category": "运镜提示词",
+    "title": "环绕镜头",
+    "englishPrompt": "orbit camera movement, camera moves in a circular path around the subject, maintaining consistent subject distance, controlled 180-degree or 360-degree product reveal, stable rotation without subject deformation",
+    "chineseExplain": "环绕镜头指摄影机围绕主体进行弧线或圆周运动，适合展示产品外观结构、人物造型轮廓或空间关系。AI 视频中需要强调主体形态稳定，避免产品旋转时变形。",
+    "suitableFor": [
+      "产品外观展示",
+      "汽车展示",
+      "人物造型展示",
+      "科技产品",
+      "空间中心主体"
+    ],
+    "notSuitableFor": [
+      "极复杂结构产品",
+      "多主体混乱场景",
+      "需要固定正面信息的包装展示",
+      "文字较多的产品"
+    ],
+    "matchWith": [
+      "中心构图",
+      "轮廓光",
+      "产品展示",
+      "低机位",
+      "固定主体"
+    ],
+    "tags": [
+      "环绕镜头",
+      "orbit shot",
+      "360度展示",
+      "弧线运动",
+      "主体稳定"
+    ],
+    "copyText": "orbit camera movement, camera moves in a circular path around the subject, maintaining consistent subject distance, controlled 180-degree or 360-degree product reveal, stable rotation without subject deformation"
+  },
+  {
+    "id": "camera_movement_term_008",
+    "category": "运镜提示词",
+    "title": "斯坦尼康跟拍",
+    "englishPrompt": "Steadicam tracking shot, stabilized handheld camera follows the subject through space, fluid walking-speed movement, minimal shake, continuous subject tracking with natural spatial immersion",
+    "chineseExplain": "斯坦尼康跟拍是一种稳定器跟拍方式，兼具手持的空间参与感和稳定设备的平滑度，适合人物穿行、产品使用场景和连续空间调度。",
+    "suitableFor": [
+      "人物行走",
+      "门店空间穿行",
+      "产品使用场景",
+      "生活方式广告",
+      "连续动作镜头"
+    ],
+    "notSuitableFor": [
+      "完全静止产品展示",
+      "高精度微距",
+      "强机械感科技镜头",
+      "需要绝对锁定构图的画面"
+    ],
+    "matchWith": [
+      "中景",
+      "跟拍镜头",
+      "自然环境光",
+      "前景穿越",
+      "连续动作"
+    ],
+    "tags": [
+      "斯坦尼康",
+      "steadicam",
+      "稳定跟拍",
+      "空间穿行",
+      "连续镜头"
+    ],
+    "copyText": "Steadicam tracking shot, stabilized handheld camera follows the subject through space, fluid walking-speed movement, minimal shake, continuous subject tracking with natural spatial immersion"
+  },
+  {
+    "id": "camera_movement_term_009",
+    "category": "运镜提示词",
+    "title": "手持摄影",
+    "englishPrompt": "handheld camera movement, subtle organic camera shake, responsive framing, imperfect human-operated motion, documentary-style immediacy while keeping the subject readable",
+    "chineseExplain": "手持摄影通过轻微、不完全机械化的晃动制造现场感和即时感，适合纪实、运动、街头和人物情绪场景。AI 视频中要限制晃动强度，否则画面容易失控。",
+    "suitableFor": [
+      "街头广告",
+      "运动场景",
+      "人物情绪片段",
+      "纪实风格视频",
+      "现场感画面"
+    ],
+    "notSuitableFor": [
+      "高端静物棚拍",
+      "珠宝腕表微距",
+      "白底产品展示",
+      "需要几何精准的科技画面"
+    ],
+    "matchWith": [
+      "自然光",
+      "低饱和色彩",
+      "人物状态",
+      "运动动作",
+      "生活场景"
+    ],
+    "tags": [
+      "手持摄影",
+      "handheld",
+      "轻微晃动",
+      "纪实感",
+      "现场感"
+    ],
+    "copyText": "handheld camera movement, subtle organic camera shake, responsive framing, imperfect human-operated motion, documentary-style immediacy while keeping the subject readable"
+  },
+  {
+    "id": "camera_movement_term_010",
+    "category": "运镜提示词",
+    "title": "锁定镜头",
+    "englishPrompt": "locked-off camera shot, camera remains completely static on a fixed tripod position, no pan, no tilt, no zoom, subject motion occurs within a stable frame",
+    "chineseExplain": "锁定镜头指摄影机完全固定，不发生摇、移、推、拉、变焦，画面变化只来自主体动作。适合强调产品稳定性、动作清晰度和构图控制。",
+    "suitableFor": [
+      "产品功能演示",
+      "动作对比画面",
+      "白底展示",
+      "极简构图",
+      "教学说明镜头"
+    ],
+    "notSuitableFor": [
+      "需要强动态节奏的广告",
+      "空间穿行镜头",
+      "大场景揭示",
+      "情绪化运动镜头"
+    ],
+    "matchWith": [
+      "中心构图",
+      "正面机位",
+      "产品展示",
+      "动作提示词",
+      "稳定光影"
+    ],
+    "tags": [
+      "锁定镜头",
+      "locked-off",
+      "固定机位",
+      "无运镜",
+      "稳定画面"
+    ],
+    "copyText": "locked-off camera shot, camera remains completely static on a fixed tripod position, no pan, no tilt, no zoom, subject motion occurs within a stable frame"
+  },
+  {
+    "id": "camera_movement_term_011",
+    "category": "运镜提示词",
+    "title": "鞭摇镜头",
+    "englishPrompt": "whip pan camera movement, extremely fast horizontal pan creating motion blur between two subjects or directions, rapid directional transition, energetic cut-like camera move",
+    "chineseExplain": "鞭摇镜头是快速横向摇镜，利用运动模糊完成两个画面方向或主体之间的转场，适合节奏强的广告片段。AI 视频中要控制使用频率，否则容易造成主体消失或画面错乱。",
+    "suitableFor": [
+      "快节奏广告",
+      "运动产品",
+      "转场镜头",
+      "潮流服饰",
+      "动作衔接"
+    ],
+    "notSuitableFor": [
+      "精密产品细节",
+      "慢节奏高端静物",
+      "文字信息展示",
+      "需要清晰观察的功能演示"
+    ],
+    "matchWith": [
+      "运动模糊",
+      "快速剪辑",
+      "动作转场",
+      "广角镜头",
+      "强节奏"
+    ],
+    "tags": [
+      "鞭摇",
+      "whip pan",
+      "快速摇镜",
+      "运动模糊",
+      "转场"
+    ],
+    "copyText": "whip pan camera movement, extremely fast horizontal pan creating motion blur between two subjects or directions, rapid directional transition, energetic cut-like camera move"
+  },
+  {
+    "id": "camera_movement_term_012",
+    "category": "运镜提示词",
+    "title": "摇镜",
+    "englishPrompt": "pan camera movement, camera rotates horizontally from a fixed position, controlled left-to-right or right-to-left view scan, revealing subject or environment without changing camera location",
+    "chineseExplain": "摇镜指摄影机位置不移动，只在固定轴点上进行水平旋转，用于扫描环境、引导视线或从一个主体过渡到另一个主体。它和横移不同，横移是机位真的移动。",
+    "suitableFor": [
+      "环境展示",
+      "人物视线引导",
+      "空间介绍",
+      "产品阵列展示",
+      "横向信息呈现"
+    ],
+    "notSuitableFor": [
+      "需要强视差的产品展示",
+      "微距材质细节",
+      "快速复杂动作",
+      "主体必须始终居中的画面"
+    ],
+    "matchWith": [
+      "全景",
+      "引导线构图",
+      "广角镜头",
+      "空间氛围",
+      "场景建立"
+    ],
+    "tags": [
+      "摇镜",
+      "pan",
+      "水平旋转",
+      "固定轴点",
+      "环境扫描"
+    ],
+    "copyText": "pan camera movement, camera rotates horizontally from a fixed position, controlled left-to-right or right-to-left view scan, revealing subject or environment without changing camera location"
+  },
+  {
+    "id": "camera_movement_term_013",
+    "category": "运镜提示词",
+    "title": "俯仰摇镜",
+    "englishPrompt": "tilt camera movement, camera rotates vertically from a fixed position, controlled upward or downward scan, revealing height, scale, or vertical product structure",
+    "chineseExplain": "俯仰摇镜指摄影机固定在原位，只进行向上或向下的垂直旋转，适合展示建筑高度、人物全身、产品纵向结构或从局部扫到整体。",
+    "suitableFor": [
+      "高大产品展示",
+      "人物全身造型",
+      "建筑空间",
+      "纵向包装产品",
+      "从细节到整体"
+    ],
+    "notSuitableFor": [
+      "水平运动主体",
+      "桌面平铺产品",
+      "低矮产品",
+      "需要稳定正面构图的画面"
+    ],
+    "matchWith": [
+      "低机位",
+      "全身景别",
+      "纵向构图",
+      "轮廓光",
+      "产品结构"
+    ],
+    "tags": [
+      "俯仰摇镜",
+      "tilt",
+      "垂直旋转",
+      "高度揭示",
+      "纵向展示"
+    ],
+    "copyText": "tilt camera movement, camera rotates vertically from a fixed position, controlled upward or downward scan, revealing height, scale, or vertical product structure"
+  },
+  {
+    "id": "camera_movement_term_014",
+    "category": "运镜提示词",
+    "title": "变焦推进",
+    "englishPrompt": "dolly zoom effect, camera physically moves while lens zooms in the opposite direction, background scale shifts dramatically while subject size remains relatively stable, controlled vertigo perspective effect",
+    "chineseExplain": "变焦推进是一种同时移动摄影机和反向变焦的特殊运镜，会让主体大小相对稳定，但背景空间产生明显压缩或拉伸变化，适合制造心理冲击或空间异常感。",
+    "suitableFor": [
+      "情绪转折",
+      "悬疑氛围",
+      "人物心理变化",
+      "强视觉记忆点",
+      "特殊广告段落"
+    ],
+    "notSuitableFor": [
+      "常规产品展示",
+      "白底电商视频",
+      "包装信息展示",
+      "自然生活方式画面"
+    ],
+    "matchWith": [
+      "长焦压缩",
+      "中心构图",
+      "人物特写",
+      "低调光",
+      "背景纵深"
+    ],
+    "tags": [
+      "变焦推进",
+      "dolly zoom",
+      "希区柯克变焦",
+      "空间拉伸",
+      "心理冲击"
+    ],
+    "copyText": "dolly zoom effect, camera physically moves while lens zooms in the opposite direction, background scale shifts dramatically while subject size remains relatively stable, controlled vertigo perspective effect"
+  },
+  {
+    "id": "camera_movement_term_015",
+    "category": "运镜提示词",
+    "title": "视差运镜",
+    "englishPrompt": "parallax camera movement, camera moves laterally with visible foreground, midground, and background depth separation, layered elements shift at different speeds, strong spatial depth cue",
+    "chineseExplain": "视差运镜通过横向或斜向移动摄影机，让前景、中景、背景以不同速度产生相对位移，从而强化空间纵深。适合让静物产品画面不死板，算是给画面加呼吸，不是给 AI 加幻觉。",
+    "suitableFor": [
+      "静物产品广告",
+      "桌面场景",
+      "空间层次展示",
+      "前景遮挡构图",
+      "高端产品细节"
+    ],
+    "notSuitableFor": [
+      "纯白底无前景画面",
+      "复杂人群场景",
+      "高速运动镜头",
+      "主体边缘容易变形的产品"
+    ],
+    "matchWith": [
+      "前景遮挡",
+      "浅景深",
+      "滑轨侧移",
+      "广角镜头",
+      "层次构图"
+    ],
+    "tags": [
+      "视差运镜",
+      "parallax",
+      "空间层次",
+      "前中后景",
+      "横向移动"
+    ],
+    "copyText": "parallax camera movement, camera moves laterally with visible foreground, midground, and background depth separation, layered elements shift at different speeds, strong spatial depth cue"
   }
 ]
